@@ -17,3 +17,6 @@ Become familiar with the application and it's characteristics. Use your favorite
 In the call, we will introduce new code to the application, and you will comment on issues with the endpoint. Please be ready to share your screen in the call with us with the application ready to run. 
 
 **Bonus:** Spot any issues or potential improvements you notice in the application while you're familiarizing yourself and make note of them for our call. We would love to see your input in how to make this application better.
+
+### build and run app
+ ./gradlew build && ./gradlew bootRun

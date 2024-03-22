@@ -17,6 +17,7 @@ public class Activity {
     @Column(name = "event")
     private String event;
 
+    // we could delete this constructor I think
     public Activity() {
 
     }
@@ -27,6 +28,7 @@ public class Activity {
         this.event = event;
     }
 
+    // I guess the correct should be occurred (2 RR)
     public LocalDateTime getOccuredAt() {
         return occuredAt;
     }
