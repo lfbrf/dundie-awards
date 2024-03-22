@@ -25,7 +25,6 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) {
         // uncomment to reseed data
-        // this is fine here, but in production code we probably want to avoid next lines even it is commented this is dangerous
         // employeeRepository.deleteAll();
         // organizationRepository.deleteAll();
 

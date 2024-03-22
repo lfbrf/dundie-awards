@@ -1,11 +1,8 @@
 package com.ninjaone.dundie_awards.controller;
 
-// there are non used imports here
-// to avoid that we could use a plugin or dependency like checkstyle since is common to forgot checking that
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 import com.ninjaone.dundie_awards.AwardsCache;
 import com.ninjaone.dundie_awards.MessageBroker;
@@ -13,7 +10,6 @@ import com.ninjaone.dundie_awards.model.Employee;
 import com.ninjaone.dundie_awards.repository.ActivityRepository;
 import com.ninjaone.dundie_awards.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -26,8 +22,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-// we are missing the path here looks like that should be employees
-// and we could remove it from @Get and @Post annotations to make concise
 @RequestMapping("/employees")
 public class EmployeeController {
 
